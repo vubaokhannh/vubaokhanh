@@ -30,12 +30,12 @@ export default function Section1() {
             </div>
           </div>
           <div className="flex-1">
-            <h2 className="text-3xl font-bold mb-2">Hello, It's Me</h2>
+            <h2 className="text-3xl font-bold mb-2">Hello, It&apos;s Me</h2>
             <h1 className="text-5xl font-extrabold mb-2 text-white">
               VU BAO KHANH
             </h1>
             <h3 className="text-2xl mb-4">
-              And I'm a{" "}
+              And I&apos;m a{" "}
               <TypeAnimation
                 sequence={[
                   "Web Developer",
