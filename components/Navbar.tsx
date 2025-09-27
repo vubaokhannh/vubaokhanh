@@ -19,7 +19,6 @@ export default function Navbar() {
   return (
     <div className="shadow-sm sticky top-0 z-50 bg-[#0F172A] dark:bg-gray-900">
       <nav className="flex justify-between items-center py-4 max-w-6xl mx-auto">
-        {/* Logo */}
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 rounded-full overflow-hidden shadow-lg border border-gray-200">
             <Image
@@ -33,7 +32,6 @@ export default function Navbar() {
           <h1 className="font-bold text-lg text-[#FFFFFF]">VU BAO KHANH</h1>
         </div>
 
-        {/* Desktop menu */}
         <div className="hidden lg:flex items-center gap-8 text-sm">
           {navLinks.map((link) => (
             <Link
@@ -41,7 +39,7 @@ export default function Navbar() {
               to={link.to}
               smooth={true}
               duration={500}
-              offset={-70} // tránh bị che bởi navbar fixed
+              offset={-70}
               spy={true}
               activeClass="text-[#0ef]"
               className="relative px-2 py-2 cursor-pointer text-[#FFFFFF] dark:text-gray-200 transition-all duration-500
@@ -54,7 +52,6 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Mobile toggle */}
         <div className="lg:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="text-[#FFFFFF]">
             {isOpen ? <X size={28} /> : <Menu size={28} />}
@@ -62,7 +59,6 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile menu */}
       <div
         className={`lg:hidden absolute top-full left-0 w-full bg-[#1f242d] z-40 transition-all duration-500 ease-in-out
           ${
@@ -79,7 +75,7 @@ export default function Navbar() {
               smooth={true}
               duration={500}
               offset={-70}
-              onClick={() => setIsOpen(false)}
+              onSetActive={() => setIsOpen(false)}
               className="cursor-pointer text-[#FFFFFF] hover:text-[#0ef] duration-500"
             >
               {link.label}
