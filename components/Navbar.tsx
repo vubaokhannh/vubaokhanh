@@ -18,7 +18,7 @@ export default function Navbar() {
 
   return (
     <div className="shadow-sm sticky top-0 z-50 bg-[#0F172A] dark:bg-gray-900">
-      <nav className="flex justify-between items-center py-4 max-w-6xl mx-auto">
+      <nav className="flex justify-between items-center py-4 max-w-6xl mx-auto  px-6 lg:px-0">
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 rounded-full overflow-hidden shadow-lg border border-gray-200">
             <Image
@@ -60,7 +60,7 @@ export default function Navbar() {
       </nav>
 
       <div
-        className={`lg:hidden absolute top-full left-0 w-full bg-[#1f242d] z-40 transition-all duration-500 ease-in-out
+        className={`lg:hidden absolute top-full left-0 w-full bg-[#0F172A] z-40 transition-all duration-500 ease-in-out
           ${
             isOpen
               ? "max-h-96 opacity-100"
