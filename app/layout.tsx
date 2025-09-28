@@ -7,8 +7,8 @@ import Footer from "../components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "My Portfolio",
-  description: "Personal portfolio built with Next.js and TailwindCSS",
+  title: "vubaokhanh",
+  description: "your profile",
 };
 
 export default function RootLayout({
