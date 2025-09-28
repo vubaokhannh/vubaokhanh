@@ -17,7 +17,7 @@ export default function Section1() {
       >
         <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           <div className="flex-1 flex justify-center relative">
-            <div className="w-96 h-96 rounded-full bg-gradient-to-tr from-[#0ef] to-[#009ffd] p-2">
+            <div className="w-70 h-70 sm:w-100 sm:h-100 md:w-120 md:h-120 lg:w-140 lg:h-140 rounded-full bg-gradient-to-tr from-[#0ef] to-[#009ffd] p-2">
               <div className="w-full h-full rounded-full overflow-hidden bg-gray-800">
                 <Image
                   src="/images/khanh.jpg"
@@ -30,10 +30,13 @@ export default function Section1() {
             </div>
           </div>
           <div className="flex-1">
-            <h2 className="text-3xl font-bold mb-2">Hello, It&apos;s Me</h2>
-            <h1 className="text-5xl font-extrabold mb-2 text-white">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2">
+              Hello, It&apos;s Me
+            </h2>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-2 text-white">
               VU BAO KHANH
             </h1>
+
             <h3 className="text-2xl mb-4">
               And I&apos;m a{" "}
               <TypeAnimation

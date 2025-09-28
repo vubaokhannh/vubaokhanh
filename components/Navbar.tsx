@@ -9,11 +9,11 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { to: "home", label: "Trang chủ" },
-    { to: "about", label: "Giới thiệu" },
-    { to: "skills", label: "Kỹ năng" },
-    { to: "projects", label: "Dự án" },
-    { to: "contact", label: "Liên hệ" },
+    { to: "home", label: "Home" },
+    { to: "about", label: "About" },
+    { to: "skills", label: "Skills" },
+    { to: "projects", label: "Projects" },
+    { to: "contact", label: "Contact" },
   ];
 
   return (
@@ -32,7 +32,7 @@ export default function Navbar() {
           <h1 className="font-bold text-lg text-[#FFFFFF]">VU BAO KHANH</h1>
         </div>
 
-        <div className="hidden lg:flex items-center gap-8 text-sm">
+        <div className="hidden lg:flex items-center gap-8 text-lg">
           {navLinks.map((link) => (
             <Link
               key={link.to}

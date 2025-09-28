@@ -35,7 +35,9 @@ export default function Section3() {
                 </div>
                 <div>
                   <div className="flex justify-between mb-1">
-                    <span className="text-white font-medium">Laravel</span>
+                    <span className="text-white font-medium">
+                      Laravel / Filament
+                    </span>
                     <span className="text-[#00EFFF] font-medium">75%</span>
                   </div>
                   <div className="w-full bg-[#1E293B] rounded-full h-3">
