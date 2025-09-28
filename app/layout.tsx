@@ -9,6 +9,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "vubaokhanh",
   description: "your profile",
+  icons: {
+    icon: "/favicon_io/favicon.ico",
+    shortcut: "/favicon_io/favicon-32x32.png",
+    apple: "/favicon_io/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
