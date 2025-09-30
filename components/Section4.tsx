@@ -7,9 +7,9 @@ export default function Section4() {
     {
       title: "Bus Ticket Booking System",
       description:
-        "A web-based platform for booking and managing bus tickets with integrated MoMo payment and seat selection.",
+        "A web-based platform for booking and managing bus tickets with integrated  payment and seat selection.",
       image: "/images/projects/bus-ticket.png",
-      tags: ["Laravel", "PHP", "MySQL", "Tailwind"],
+      tags: ["Laravel", "Filament", "React", "MySQL", "Tailwind"],
       demoUrl: "#",
       githubUrl: "#",
     },
@@ -18,27 +18,27 @@ export default function Section4() {
       description:
         "An e-commerce website for selling wine, including cart management, invoicing, and product filtering.",
       image: "/images/projects/wine-shop.webp",
-      tags: ["Laravel", "MySQL", "Filament", "Tailwind"],
+      tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
       demoUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/vubaokhannh/wine.git",
     },
     {
       title: "Movie Streaming Website",
       description:
         "A web platform for streaming movies with features like user authentication, movie categorization, and MoMo payment integration for premium access.",
       image: "/images/projects/movie-streaming.webp",
-      tags: ["PHP", "CSS", "JavaScript", "MySQL", "Tailwind"],
+      tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
       demoUrl: "#",
       githubUrl: "#",
     },
     {
-      title: "Wine E-commerce Website",
+      title: "Personal Portfolio Website",
       description:
-        "An e-commerce website for selling wine, including cart management, invoicing, and product filtering.",
-      image: "/images/projects/wine-shop.webp",
-      tags: ["Laravel", "MySQL", "Filament", "Tailwind"],
-      demoUrl: "#",
-      githubUrl: "#",
+        "A personal portfolio website to showcase my projects, skills, and experiences, with a clean and responsive design.",
+      image: "/images/projects/user.jpg",
+      tags: ["Next.js", "Tailwind"],
+      demoUrl: "https://vubaokhanh.vercel.app/",
+      githubUrl: "https://github.com/vubaokhannh/vubaokhanh.git",
     },
   ];
 

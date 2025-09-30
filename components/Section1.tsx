@@ -7,6 +7,7 @@ import {
   FaInstagram,
   FaLinkedin,
   FaYoutube,
+  FaGithub,
 } from "react-icons/fa";
 export default function Section1() {
   return (
@@ -20,7 +21,7 @@ export default function Section1() {
             <div className="w-70 h-70 sm:w-100 sm:h-100 md:w-120 md:h-120 lg:w-140 lg:h-140 rounded-full bg-gradient-to-tr from-[#0ef] to-[#009ffd] p-2">
               <div className="w-full h-full rounded-full overflow-hidden bg-gray-800">
                 <Image
-                  src="/images/khanh.jpg"
+                  src="/images/user.jpg"
                   alt="Profile"
                   width={500}
                   height={500}
@@ -64,16 +65,22 @@ export default function Section1() {
 
             <div className="flex gap-4 mb-6">
               <a
-                href="#"
+                href="https://www.facebook.com/vubaokhanh08901?mibextid=ZbWKwL"
                 className="w-10 h-10 flex items-center justify-center border border-[#0ef] rounded-full hover:bg-[#0ef] hover:text-black transition"
               >
                 <FaFacebook />
               </a>
               <a
+                href="https://github.com/vubaokhannh"
+                className="w-10 h-10 flex items-center justify-center border border-[#0ef] rounded-full hover:bg-[#0ef] hover:text-black transition"
+              >
+                <FaGithub />
+              </a>
+              <a
                 href="#"
                 className="w-10 h-10 flex items-center justify-center border border-[#0ef] rounded-full hover:bg-[#0ef] hover:text-black transition"
               >
-                <FaTwitter />
+                <FaLinkedin />
               </a>
               <a
                 href="#"
@@ -86,12 +93,6 @@ export default function Section1() {
                 className="w-10 h-10 flex items-center justify-center border border-[#0ef] rounded-full hover:bg-[#0ef] hover:text-black transition"
               >
                 <FaYoutube />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 flex items-center justify-center border border-[#0ef] rounded-full hover:bg-[#0ef] hover:text-black transition"
-              >
-                <FaLinkedin />
               </a>
             </div>
 

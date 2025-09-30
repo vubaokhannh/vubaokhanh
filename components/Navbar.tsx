@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 rounded-full overflow-hidden shadow-lg border border-gray-200">
             <Image
-              src="/images/khanh.jpg"
+              src="/images/khanh123.jpg"
               alt="Avatar"
               width={160}
               height={160}

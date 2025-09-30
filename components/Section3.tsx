@@ -189,20 +189,6 @@ export default function Section3() {
                     ></div>
                   </div>
                 </div>
-
-                <div>
-                  <div className="flex justify-between mb-1">
-                    <span className="text-white font-medium">Docker</span>
-                    <span className="text-[#00EFFF] font-medium">60%</span>
-                  </div>
-                  <div className="w-full bg-[#1E293B] rounded-full h-3">
-                    <div
-                      className="bg-gradient-to-r from-yellow-300 via-pink-500 to-fuchsia-600
- h-3 rounded-full"
-                      style={{ width: "60%" }}
-                    ></div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
