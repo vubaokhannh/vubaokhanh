@@ -48,7 +48,7 @@ export default function Section4() {
       tags: ["NestJS", "Prisma", "Redis", "JWT"],
       demoUrl:
         "https://winter-station-8711970.postman.co/workspace/V%C5%A9-B%E1%BA%A3o-Khanh~621aa075-df5d-484c-88d4-1f8b6b2fad78/collection/44000321-d1bcdeef-ceae-4f43-8e0a-03abfaa5f8a0?action=share&creator=44000321",
-      githubUrl: "https://github.com/vubaokhannh/trello-ackbend",
+      githubUrl: "https://github.com/vubaokhannh/trello-backend",
     },
   ];
 
